@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/hot"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".kampala"></activity>
+        <activity
+            android:name=".HotelFragmentHandler"
+            android:label="@string/title_activity_hotel_fragment_handler"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".navbar" />
+        <activity android:name=".kampala" />
         <activity android:name=".fortportal" />
         <activity android:name=".mbarara" />
         <activity android:name=".Hotels" />

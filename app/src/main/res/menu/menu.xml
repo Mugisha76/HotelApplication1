@@ -3,12 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/fot"
-        android:title="fortportal" />
+        android:id="@+id/hm"
+        android:title="Home" />
     <item
-        android:id="@+id/mbr"
-        android:title="mbarara" />
+        android:id="@+id/hp"
+        android:title="Help" />
     <item
-        android:id="@+id/kla"
-        android:title="kampala" />
+        android:id="@+id/fq"
+        android:title="FAQ" />
 </menu>

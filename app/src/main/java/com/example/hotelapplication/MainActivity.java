@@ -21,19 +21,19 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void Validate(View view){
+    public void Validate(View view) {
 
-        username =findViewById(R.id.userName);
-        password=findViewById(R.id.passWord);
-        if(username.getText().toString().equals("Mugisha")&& password.getText().toString().equals("lovedogz7")){
-            Intent intent = new Intent(this,Hotels.class);
+        username = findViewById(R.id.userName);
+        password = findViewById(R.id.passWord);
+        if (username.getText().toString().equals("Mugisha") && password.getText().toString().equals("lovedogz7")) {
+            Intent intent = new Intent(this, navbar.class);
             startActivity(intent);
-        }
-        else{
+        } else {
             Toast.makeText(this, "Incorect Password", Toast.LENGTH_SHORT).show();
         }
+    }
 
 
     }
 
-}
+
